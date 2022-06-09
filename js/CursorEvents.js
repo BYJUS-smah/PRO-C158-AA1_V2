@@ -22,13 +22,13 @@ AFRAME.registerComponent("cursor-listener", {
     }
   },
   handleMouseEnterEvents: function () {
-    // Mouse Enter Events
+    // Evento 'mouseenter' del cursor.
     this.el.addEventListener("mouseenter", () => {
       this.handlePlacesListState();
     });
   },
   handleMouseLeaveEvents: function () {
-    // Mouse Leave Events
+    // Evento 'mouseleave' del cursor.
     
   },
 });
